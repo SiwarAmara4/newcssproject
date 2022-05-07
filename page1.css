@@ -1,0 +1,84 @@
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+h1{
+    color:rgb(23, 20, 228);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 15px;
+}
+.panier{
+    margin-left: 910px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 10px 15px;
+    
+    
+}
+
+
+
+.section-header {
+  
+    text-align: center;
+    font-size: 2.5em;
+}
+.btn-primary {
+    color: rgb(5, 3, 3);
+    background-color: transparent;
+    border:5px;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(170, 149, 125);
+}
+
+
+
+
+.shop-item-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(128, 89, 44);
+    margin-bottom: 25px;
+}
+.shop-item-title:hover{
+    text-decoration:underline;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: rgb(128, 89, 44);
+}
+img{
+    border-radius: 5%;
+   transition: transform 0,7s;
+}
+img:hover{
+transform: translateY(-10px);
+}
+
+.footer {
+    color: rgb(23, 20, 228);
+    size: 30 px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 80px;
+}
